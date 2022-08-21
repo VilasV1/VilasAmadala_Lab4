@@ -1,3 +1,4 @@
+DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `new_procedure`()
 BEGIN
 select report.supp_id,report.supp_name,report.Average,
